@@ -1,0 +1,21 @@
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  border-top: 1px solid #e9e6e6;
+}
+
+.link {
+  color: #278c37;
+
+  &:hover {
+    color: rgb(210 105 30);
+  }
+}
+
+.desc {
+  padding-right: 5px;
+}

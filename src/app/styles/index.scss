@@ -1,0 +1,60 @@
+@import 'reset';
+@import 'font';
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  font-family: RFRufo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+
+  background-color: #212529;
+  caret-color: transparent;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1535px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
+  padding-right: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  margin: 0;
+  appearance: none;
+}

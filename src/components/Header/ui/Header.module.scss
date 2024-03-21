@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid #e9e6e6;
+}
+
+.title {
+  font-size: 42px;
+
+  @media (width <= 440px) {
+    font-size: 30px;
+  }
+}
