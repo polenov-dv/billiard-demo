@@ -1,1 +1,1 @@
-export { ColorMenu } from "./ui/ColorMenu";
+export { ColorMenu } from './ui/ColorMenu';
